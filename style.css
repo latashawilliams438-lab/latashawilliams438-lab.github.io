@@ -68,14 +68,14 @@ h2 {
 
 
 #interests li {
-  background: #ffe8ec;
-  border-color: #e94560;
-  color: #e94560;
+  background: rgb(157, 0, 255);
+  border-color: #db45e9;
+  color: #d6c1dc;
 }
 
 
 #interests li:hover {
-  background: #e94560;
+  background: #9800f7;
   color: #fff;
 }
 
@@ -87,7 +87,7 @@ h2 {
   object-fit: cover;
   display: block;
   border-radius: 16px;
-  filter: grayscale(100%);
+  filter: grayscale(0%);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
   transition:
     filter 0.4s ease,
@@ -121,7 +121,7 @@ nav h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #00f2f7;
+  color: #9800f7;
 }
 
 
@@ -135,7 +135,7 @@ nav h1 {
 
 
 .nav-li a {
-  color: #00f2f7;
+  color: #9800f7;
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
