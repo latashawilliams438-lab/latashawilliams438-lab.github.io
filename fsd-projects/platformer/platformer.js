@@ -37,6 +37,7 @@ $(function () {
 createPlatform(500, 600, 130, 10, "cyan")
 createPlatform(700, 500, 120, 10, "white")
 createPlatform(500, 400, 100, 10, "purple")
+createPlatform(700, 300, 80, 10, "purple")
     // TODO 3 - Create Collectables
 
 
