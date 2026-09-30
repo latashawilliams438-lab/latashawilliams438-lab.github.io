@@ -39,12 +39,19 @@ createPlatform(700, 500, 120, 10, "white")
 createPlatform(500, 400, 100, 10, "purple")
 createPlatform(700, 300, 80, 10, "purple")
     // TODO 3 - Create Collectables
-
-
-
+//createCollectable("Name", xPos, yPos, GravitNumber, BounceNumber, minX, maxX, speed)
+//createCollectable("Name", xPos, yPos, GravitNumber, BounceNumber)
+//createCollectable("Name", xPos, yPos)
+createCollectable("database", 900, 100, 0.3, 1)
+createCollectable("max", 500, 370)
+createCollectable("grace", 800, 460)
     
     // TODO 4 - Create Cannons
-
+//createCannon("top bottom left right", position, timeBetweenShots, BulletWidth, BulletHeight, minCannonPos, maxCannonPos, cannonSpeed)
+//createCannon("top bottom left right", position, timeBetweenShots, BulletWidth, BulletHeight)
+//createCannon("top bottom left right", position, timeBetweenShots)
+createCannon("top", 500, 1000/2, 10, 5, 300, 800, 4)
+createCannon("right", 300, 1000)
 
     
     
