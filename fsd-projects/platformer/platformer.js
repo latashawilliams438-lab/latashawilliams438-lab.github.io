@@ -52,7 +52,7 @@ createCollectable("grace", 800, 460)
 //createCannon("top bottom left right", position, timeBetweenShots)
 createCannon("top", 500, 1000/2, 10, 5, 300, 800, 4)
 createCannon("right", 300, 1000)
-
+createCannon("left", 400, 5000) 
     
     
     //////////////////////////////////
